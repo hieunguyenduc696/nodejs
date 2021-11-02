@@ -1,18 +1,28 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">EDUlanthropy</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
+  <div class="container">
+    <div class="container-fluid" style="display: flex; align-items:center">
+      <a class="navbar-brand" href="/">EDUlanthropy</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://scontent-hkg4-2.xx.fbcdn.net/v/t1.6435-9/122444226_1014516498961367_6826775019990550660_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=97_e7bzBTikAX-iV7QJ&_nc_ht=scontent-hkg4-2.xx&oh=53ab37878e4dc362b727370278bf935a&oe=61A7CDE0" alt="" class="user-avatar">
+              Hiếu nguyễn
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/courses/create">Đăng khoá học</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/me/stored/courses">Khoá học của tôi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/me/stored/news">Bài viết của tôi</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
